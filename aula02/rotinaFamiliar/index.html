@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Organização Familiar</title>
+  </head>
+  <body>
+    <h1>Organização Semanal da Família Buscapé 👨‍👩‍👧‍👦</h1>
+
+    <div id="organizacao">
+      <div id="legenda">
+        <h3>Legenda</h3>
+        <ul id="lista-legenda">
+          <li class="flex">
+            <div class="legenda mae"></div>
+            Maria
+          </li>
+          <li class="flex">
+            <div class="legenda pai"></div>
+            José
+          </li>
+          <li class="flex">
+            <div class="legenda filho"></div>
+            Júnior
+          </li>
+          <li class="flex">
+            <div class="legenda filha"></div>
+            Luíza
+          </li>
+          <li class="flex">
+            <div class="legenda todos"></div>
+            Todos
+          </li>
+        </ul>
+      </div>
+
+      <div id="compras">
+        <h3>Lista de compras</h3>
+        <ul id="lista-compras">
+          <li class="flex">
+            <div class="legenda pai"></div>
+            Tofu
+          </li>
+          <li class="flex">
+            <div class="legenda mae"></div>
+            Pimenta calabresa
+          </li>
+          <li class="flex">
+            <div class="legenda todos"></div>
+            Alface
+          </li>
+          <li class="flex">
+            <div class="legenda filha"></div>
+            Molho de tomate
+          </li>
+          <li class="flex">
+            <div class="legenda todos"></div>
+            Arroz integral
+          </li>
+          <li class="flex">
+            <div class="legenda filho"></div>
+            Laranja
+          </li>
+          <li class="flex">
+            <div class="legenda filha"></div>
+            Macarrão
+          </li>
+        </ul>
+      </div>
+
+      <div id="tarefas">
+        <h3>Lista de tarefas</h3>
+        <ol id="lista-tarefas">
+          <li class="flex">
+            <div class="legenda pai"></div>
+            Levar Júnior e Luíza para escola.
+          </li>
+          <li class="flex">
+            <div class="legenda mae"></div>
+            Fazer as compras da semana.
+          </li>
+          <li class="flex">
+            <div class="legenda mae"></div>
+            Ajudar Luíza com as aulas de piano.
+          </li>
+          <li class="flex">
+            <div class="legenda filho"></div>
+            Estudar para prova de Física.
+          </li>
+          <li class="flex">
+            <div class="legenda todos"></div>
+            Limpar os quartos na sexta-feira.
+          </li>
+          <li class="flex">
+            <div class="legenda todos"></div>
+            Ir ao cinema domingo.
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div id="cardapio">
+      <table border="">
+        <thead>
+          <th colspan="8">Cardápio Semanal</th>
+        </thead>
+
+        <tr id="diaSemana">
+          <td></td>
+          <td>Segunda</td>
+          <td>Terça</td>
+          <td>Quarta</td>
+          <td>Quinta</td>
+          <td>Sexta</td>
+          <td>Sábado</td>
+          <td>Domingo</td>
+        </tr>
+
+        <tr id="cafe" class="refeicao">
+          <td>Café da manhã</td>
+          <td>Cuscuz com ovo</td>
+          <td>Tapioca com queijo</td>
+          <td>Salada de frutas</td>
+          <td>Torrada com ovos mexidos</td>
+          <td>Misto quente</td>
+          <td colspan="2">Pão francês</td>
+        </tr>
+
+        <tr id="almoco1" class="refeicao">
+          <td rowspan="2">Almoço</td>
+          <td>Arroz com ervilha e frango assado</td>
+          <td>Escondidinho de carne</td>
+          <td>Arroz, feijão branco e sobrecoxa de frango</td>
+          <td>Purê de batata com bife</td>
+          <td>Frango à milanesa com salada</td>
+          <td>Peixe assado com farofa</td>
+          <td>Bobó de camarão</td>
+        </tr>
+
+        <tr id="almoco2">
+          <td>Arroz com ervilha e cogumelos</td>
+          <td>Escondidinho de legumes</td>
+          <td>Arroz, feijão branco e lentilhas</td>
+          <td>Purê de batata com berinjela</td>
+          <td>Tofu salteado com salada</td>
+          <td>Curry de cogumelos e legumes</td>
+          <td>Bobó vegetariano</td>
+        </tr>
+
+        <tr id="lanche" class="refeicao">
+          <td>Lanche</td>
+          <td>Sanduíche</td>
+          <td>Bolo de macaxeira</td>
+          <td>Salada de frutas</td>
+          <td>Pão de queijo</td>
+          <td>Suco de laranja e biscoito</td>
+          <td colspan="2">Bolo de chocolate</td>
+        </tr>
+
+        <tr id="janta1" class="refeicao">
+          <td rowspan="2">Jantar</td>
+          <td>Lasanha de carne</td>
+          <td>Hambúrger caseiro</td>
+          <td>Caldo de ovos</td>
+          <td>Frango gratinado com salada</td>
+          <td>Almôndegas</td>
+          <td>Macarronada</td>
+          <td>Pizza de calabresa</td>
+        </tr>
+
+        <tr id="jantar2">
+          <td>Lasanha de brócolis</td>
+          <td>Hambúrger de soja</td>
+          <td>Caldo de legumes</td>
+          <td>Berinjela gratinada com salada</td>
+          <td>Almôndegas de carne de jaca</td>
+          <td>Macarronada vegetariana</td>
+          <td>Pizza vegetariana</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>Feito com 🤍 por <a href="https://www.linkedin.com/in/layna-moraes/" target="_blank">Layna Moraes</a></footer>
+  </body>
+</html>

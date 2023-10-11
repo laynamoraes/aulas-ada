@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #020817;
+  color: #ffffffc5;
+  width: 100%;
+  padding: 100px;
+}
+
+h1 {
+  color: #fff;
+}
+
+#organizacao {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+#organizacao h3 {
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffffe8;
+}
+
+#lista-legenda,
+#lista-compras,
+#lista-tarefas {
+  list-style: none;
+  border: 1px solid #1b263b;
+}
+
+#lista-legenda {
+  width: 150px;
+}
+
+#lista-legenda li,
+#lista-compras li,
+#lista-tarefas li {
+  padding: 8px 10px;
+  font-size: 18px;
+}
+
+#lista-legenda li:nth-child(even),
+#lista-compras li:nth-child(even),
+#lista-tarefas li:nth-child(even),
+#almoco1,
+#lanche,
+#jantar2 {
+  background-color: #101723;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.legenda {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.mae {
+  background-color: #dd9787;
+}
+
+.pai {
+  background-color: #74d3ae;
+}
+
+.filho {
+  background-color: #90a955;
+}
+
+.filha {
+  background-color: #b185a7;
+}
+
+.todos {
+  background-color: #ffd23f;
+}
+
+#lista-compras {
+  width: 250px;
+}
+
+#lista-tarefas {
+  width: 400px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #1b263b;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+table thead th {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 12px 0;
+  color: #ffffffe8;
+}
+
+table tr td {
+  padding: 14px;
+  text-align: center;
+}
+
+#diaSemana,
+.refeicao td:nth-child(1) {
+  background-color: #030b20ea;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffffc5;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

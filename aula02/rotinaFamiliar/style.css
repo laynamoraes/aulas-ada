@@ -14,11 +14,11 @@ body {
 
 h1 {
   color: #fff;
+  margin-bottom: 15px;
 }
 
 #organizacao {
   display: flex;
-  justify-content: space-around;
   padding: 50px 0;
 }
 
@@ -29,7 +29,6 @@ h1 {
   color: #ffffffe8;
 }
 
-#lista-legenda,
 #lista-compras,
 #lista-tarefas {
   list-style: none;
@@ -47,7 +46,6 @@ h1 {
   font-size: 18px;
 }
 
-#lista-legenda li:nth-child(even),
 #lista-compras li:nth-child(even),
 #lista-tarefas li:nth-child(even),
 #almoco1,
@@ -86,6 +84,10 @@ h1 {
 
 .todos {
   background-color: #ffd23f;
+}
+
+#compras {
+  margin-right: 60px;
 }
 
 #lista-compras {

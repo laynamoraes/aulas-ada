@@ -1,0 +1,40 @@
+{
+  "reserva": [
+    {
+      "name": "Layna",
+      "date": "2023-10-21",
+      "passageiros": "2",
+      "pais": "brasil",
+      "email": "teste@teste.com",
+      "refeicao": "padrao",
+      "telefone": "98970056650",
+      "pais-destino": "paris",
+      "assento": "janela",
+      "cartao": "1254785115566",
+      "passaporte": "",
+      "servico": [
+        "servicoQuarto",
+        "translado"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Matheus",
+      "date": "2023-10-26",
+      "passageiros": "3",
+      "pais": "brasil",
+      "email": "teste02@teste.com",
+      "refeicao": "vegetariana",
+      "telefone": "98970025664",
+      "pais-destino": "londres",
+      "assento": "corredor",
+      "cartao": "1234567890123",
+      "passaporte": "Layna Moraes - Desenvolvedora.pdf",
+      "servico": [
+        "translado",
+        "passeio"
+      ],
+      "id": 2
+    }
+  ]
+}

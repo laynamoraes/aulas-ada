@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelMundo</title>
+  </head>
+  <body>
+    <h1>TravelMundo</h1>
+
+    <form method="post" action="http://localhost:3000/reserva">
+      <div>
+        <label for="name">Nome completo:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+
+      <div>
+        <label for="date">Data da viagem:</label>
+        <input type="date" name="date" id="date" />
+      </div>
+
+      <div>
+        <label for="passageiros">Número de passageiros:</label>
+        <input type="number" name="passageiros" id="passageiros" />
+      </div>
+
+      <div>
+        <label for="pais">País de origem:</label>
+        <select name="pais" id="pais">
+          <option value="argentina">Argentina</option>
+          <option value="brasil">Brasil</option>
+          <option value="colombia">Colômbia</option>
+          <option value="chile">Chile</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div>
+        <label>Refeição:</label>
+
+        <input
+          type="radio"
+          name="refeicao"
+          id="vegetariana"
+          value="vegetariana"
+        />
+        <label for="vegetariana">Vegetariana</label>
+
+        <input type="radio" name="refeicao" id="gluten" value="gluten" />
+        <label for="gluten">Sem glúten</label>
+
+        <input type="radio" name="refeicao" id="padrao" value="padrao" />
+        <label for="padrao">Padrão</label>
+      </div>
+
+      <div>
+        <label for="passageiros">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" />
+      </div>
+
+      <div>
+        <label for="pais">Destino da viagem:</label>
+        <select name="pais-destino" id="pais-destini">
+          <option value="paris">Paris</option>
+          <option value="londres">Londres</option>
+          <option value="novaYork">Nova York</option>
+          option>
+          <option value="toquio">Tóquio</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Preferência de assento:</label>
+
+        <input type="radio" name="assento" id="janela" value="janela" />
+        <label for="janela">Janela</label>
+
+        <input type="radio" name="assento" id="corredor" value="corredor" />
+        <label for="corredor">Corredor</label>
+
+        <input type="radio" name="assento" id="emergencia" value="emergencia" />
+        <label for="emergencia">Prox. à saída de emergência</label>
+      </div>
+
+      <div>
+        <label for="cartao">Número do cartão:</label>
+        <input type="text" name="cartao" id="cartao" />
+      </div>
+
+      <div>
+        <label for="cartao">Passaporte:</label>
+        <input type="file" name="passaporte" id="passaporte" />
+      </div>
+
+      <div>
+        <label>Preferência de serviço:</label>
+        <br />
+        <input
+          type="checkbox"
+          name="servico"
+          id="servico-quarto"
+          value="servicoQuarto"
+        />
+        <label for="janela">Serviço de quarto</label>
+        <br />
+        <input
+          type="checkbox"
+          name="servico"
+          id="translado"
+          value="translado"
+        />
+        <label for="translado">Translado do aeroporto</label>
+        <br />
+        <input type="checkbox" name="servico" id="passeio" value="passeio" />
+        <label for="passeio">Passeio turístico</label>
+      </div>
+
+      <button type="submit">ENVIAR</button>
+    </form>
+  </body>
+</html>
